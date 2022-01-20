@@ -2,7 +2,7 @@
 
 ## I'm a Dad, a software dev, and a... well, Dev! 
 
-- 🔭 I’m currently working as a Senior Frontend Dev at [EBTH](https://ebth.com/). 
+- 🔭 I’m currently a Lead Frontend Engineer at [GoodRx](https://goodrx.com/). 
 - 🔨 I'm also building out [osca.coop](https://osca.coop/) for the Oberlin Student Cooperative Association.
 - 🌱 I’m currently learning [three.js](https://threejs.org/) and [react-three-fiber](https://github.com/pmndrs/react-three-fiber)
 - 📝 And [redoing my portfolio (WIP)](https://devonwells.vercel.app/) with what I learn
