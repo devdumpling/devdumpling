@@ -4,9 +4,8 @@
 
 - 🔭 I’m currently a Lead Software Engineer at [GoodRx](https://goodrx.com/). 
 - 🌱 I’m currently learning [three.js](https://threejs.org/) and [react-three-fiber](https://github.com/pmndrs/react-three-fiber)
-- 📝 And [redoing my portfolio (WIP)](https://devonwells.vercel.app/) with what I learn
+- 📝 And [some notes or something](https://dumpling.dev)
 - 😄 Pronouns: (they/them)
-- ⚡ Fun fact: I used to be a competitive Super Smash Bros Melee player and taught classes at my alma mater!
 
 ## Tech I like to use
 <p>
