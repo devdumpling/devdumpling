@@ -2,10 +2,10 @@
 
 ## I'm a Dad, a software dev, and a... well, Dev! 
 
-- 🔭 I’m currently a Lead Software Engineer at [GoodRx](https://goodrx.com/). 
-- 🌱 I’m currently learning [three.js](https://threejs.org/) and [react-three-fiber](https://github.com/pmndrs/react-three-fiber)
-- 📝 And [some notes or something](https://dumpling.dev)
-- 😄 Pronouns: (they/them)
+- 🔭 I’m currently a Lead Software Engineer at [GoodRx](https://goodrx.com/). I make pretty things.
+- 🌱 I’m learning [three.js](https://threejs.org/) and [react-three-fiber](https://github.com/pmndrs/react-three-fiber)
+- 📝 And [some notes or something](https://helloim.dev)
+- 😄 Pronouns: (they/them/he/him)
 
 ## Tech I like to use
 <p>
