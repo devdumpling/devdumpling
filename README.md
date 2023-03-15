@@ -1,11 +1,34 @@
+           🏠
+          ╱▔╲╱▔╲
+         ╱▔╲╱▔╲╱▔╲
+      🚶━━╱▔▔▔▔╲━━╲🌳
+
 # Hi, I'm Dev(on) 👋
 
 ## I'm a Dad, a software dev, and a... well, Dev! 
 
-- 🔭 I’m currently a Lead Software Engineer at [GoodRx](https://goodrx.com/). I make pretty things.
-- 🌱 I’m learning [three.js](https://threejs.org/) and [react-three-fiber](https://github.com/pmndrs/react-three-fiber)
-- 📝 And [some notes or something](https://helloim.dev)
-- 😄 Pronouns: (they/them/he/him)
+```ts
+const dev = {
+  pronouns: ['they', 'them', 'he', 'him'],
+  currentRole: 'Lead Software Engineer at GoodRx',
+  techStack: ['React', 'Next.js', 'TypeScript', 'Node', 'Turborepo'],
+  hobbies: ['Reading', 'Writing', 'Mixology', 'Video Games'],
+  currentlyLearning: ['three.js', 'react-three-fiber'],
+  funFact: 'I can make a mean 🍸 while refactoring at lightning ⚡ speed!'
+};
+```
+
+🚀 At GoodRx, I'm a vital part of the Application Platform Frontend team, where I nurture and maintain the frontend architecture, including our monorepo, applications, and developer tooling. I'm your go-to person for anything related to React and Next.js development, and I have a passion for TypeScript, Node, Design Systems, and DX. 🌟
+
+🌳 When I'm not making code magic, I love spending quality time with my daughter and wonderful partner, doing the dad thing. 💕
+
+🎮 If I manage to find some extra free time, you can catch me diving into a good book 📚, writing ✍️, practicing mixology to create the perfect cocktail 🍹, or sneaking off to play some video games. 🕹️
+
+🌐 Feel free to explore my repositories below, and don't hesitate to reach out if you want to chat or collaborate on a project! Let's build something awesome together! 🚀
+
+---
+
+📝 [Blog](https://www.helloim.dev/blog) - Check out my thoughts on web development, life, and more
 
 ## Tech I like to use
 <p>
