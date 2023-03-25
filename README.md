@@ -14,8 +14,8 @@ const dev = {
 ```
 
 🚀 nurturing and maintaining frontend architecture
-🌳 doing the dad thing.
-📚, writing
+🌳 doing the dad thing
+📚 reading, writing, rock climbing
 
 ---
 
