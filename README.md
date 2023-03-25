@@ -7,9 +7,8 @@ const dev = {
   pronouns: ['they', 'them', 'he', 'him'],
   currentRole: 'Lead Software Engineer at GoodRx',
   techStack: ['React', 'Next.js', 'TypeScript', 'Node', 'Turborepo'],
-  hobbies: ['Reading', 'Writing', 'Mixology', 'Video Games'],
+  hobbies: ['Reading', 'Writing', 'Climbing'],
   currentlyLearning: ['three.js', 'react-three-fiber'],
-  funFact: 'I can make a mean 🍸 while refactoring at lightning ⚡ speed!'
 };
 ```
 
