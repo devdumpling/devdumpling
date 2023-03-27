@@ -52,6 +52,13 @@ const dev = {
   <img alt="Three.js" src="https://img.shields.io/badge/-three.js-000000?style=flat-square&logo=three.js&logoColor=white" />
 </p>
 
+## Influences:
+
+- [John Cleese: A cheerful guide to creativity](https://www.designbetter.co/podcast/john-cleese)
+- [Cal Newport: Deep Work](https://www.shortform.com/summary/deep-work-summary-cal-newport)
+- [James Clear: Atomic Habits](https://www.quickread.com/book-summary/atomic-habits-97)
+- [Brandon Sanderson](https://www.brandonsanderson.com/)
+
 <!--
 **devdumpling/devdumpling** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
