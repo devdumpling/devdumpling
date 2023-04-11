@@ -5,7 +5,7 @@
 ```ts
 const dev = {
   pronouns: ['they', 'them', 'he', 'him'],
-  currentRole: 'Lead Software Engineer at GoodRx',
+  currentRole: 'Manager, Frontend Platform Engineering at GoodRx',
   techStack: ['React', 'Next.js', 'TypeScript', 'Node', 'Turborepo'],
   hobbies: ['Reading', 'Writing', 'Climbing'],
   currentlyLearning: ['three.js', 'react-three-fiber'],
