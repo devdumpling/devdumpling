@@ -58,6 +58,7 @@ const dev = {
 - [Cal Newport: Deep Work](https://www.shortform.com/summary/deep-work-summary-cal-newport)
 - [James Clear: Atomic Habits](https://www.quickread.com/book-summary/atomic-habits-97)
 - [Brandon Sanderson](https://www.brandonsanderson.com/)
+- [Bret Victor - Inventing on Principle](https://www.youtube.com/watch?v=PUv66718DII)
 
 <!--
 **devdumpling/devdumpling** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
