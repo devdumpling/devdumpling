@@ -11,15 +11,13 @@ const dev = {
 };
 ```
 
-🚀 nurturing and maintaining frontend architecture
+🚀 nurturing frontend architecture
 
 🌳 doing the dad thing
 
 📚 reading, writing, rock climbing
 
 ---
-
-📝 [Blog](https://www.helloim.dev/blog) - thoughts on web development, life, and more
 
 ## Tech I like to use
 <p>
