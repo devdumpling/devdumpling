@@ -49,3 +49,4 @@ const dev = {
 - [James Clear: Atomic Habits](https://www.quickread.com/book-summary/atomic-habits-97)
 - [Bret Victor - Inventing on Principle](https://www.youtube.com/watch?v=PUv66718DII)
 - [Alex Russell - All of his blog posts](https://infrequently.org/)
+- [Oliver Burkeman: Four Thousand Weeks](https://www.amazon.com/Four-Thousand-Weeks-Management-Mortals/dp/0374159122)
