@@ -26,12 +26,12 @@ const dev = {
 
 ### `frameworks`
 
-> Lately I'm inspired by [Alex Russell's blog](https://infrequently.org/2024/01/performance-inequality-gap-2024/#the-budget%2C-2024) and am indulging myself in lighter-weight alternatives to React and Next, especially for primarily content-driven apps. Currently I'm obsessed with Qwik and Fresh... or even just vanilla JS. I still like and use Next at work though and for certain things.
+> Lately I'm inspired by [Alex Russell's blog](https://infrequently.org/2024/01/performance-inequality-gap-2024/#the-budget%2C-2024) and am indulging myself in lighter-weight alternatives to React and Next, especially for primarily content-driven apps. Currently I'm enjoying Astro, Qwik, and Fresh... or even just vanilla JS. I still like and use Next at work though and for certain things.
 
+- [Astro](https://astro.build/)
 - [Qwik, QwikCity](https://qwik.dev/)
 - [Fresh, Preact](https://fresh.deno.dev/)
 - [Enhance](https://enhance.dev/)
-- [Astro](https://astro.build/)
 - [FAST](https://fast.design/)
 - [React, Next](https://nextjs.org/)
 
