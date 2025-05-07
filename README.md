@@ -7,7 +7,7 @@
 ```ts
 const dev = {
   pronouns: ['they', 'them', 'he', 'him'],
-  currentRole: 'Principal Software Engineer @ GoodRx',
+  currentRole: 'Principal Software Engineer @ Amino',
   hobbies: ['Fantasy Books', 'RPGs', 'Bouldering'],
 };
 ```
