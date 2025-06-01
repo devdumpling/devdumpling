@@ -2,12 +2,10 @@
 
 ## I'm a Dad, a software dev, and a... well, Dev!
 
-> currently on paternity leave, prob won't respond 
-
 ```ts
 const dev = {
   pronouns: ['they', 'them', 'he', 'him'],
-  currentRole: 'Principal Software Engineer @ Amino',
+  currentRole: 'Principal Engineer @ Amino',
   hobbies: ['Fantasy Books', 'RPGs', 'Bouldering'],
 };
 ```
