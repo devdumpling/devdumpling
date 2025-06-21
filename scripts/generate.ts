@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { writeFileSync, mkdirSync, existsSync } from 'fs';
+import { writeFileSync, mkdirSync, existsSync, readFileSync } from 'fs';
 import { join } from 'path';
 
 /**
@@ -21,18 +21,9 @@ function getCurrentDate(): string {
 
 function generateASCIIArt(): string {
   const asciiArts = [
-    `
-┌────────────────────────────────┐
-│    dev(on) • daily fresh 🥟    │
-└────────────────────────────────┘`,
-    `
- _____             
-|  _  \\ _____   __
-| | | |/ _ \\ \\ / /
-| |_| |  __/\\ V / 
-|_____/ \\___| \\_/  `,
-    `
-[ dev • dad • dumpling ]`
+    `dev(on) • daily fresh 🥟`,
+    `[ dev • dad • dumpling ]`,
+    `~ coding adventures daily ~`
   ];
   
   return asciiArts[Math.floor(Math.random() * asciiArts.length)];
@@ -66,27 +57,26 @@ function generateProfileContent(): ProfileContent {
   };
 }
 
-function createMarkdown(content: ProfileContent): string {
-  return `# Hi, I'm Dev(on) 👋
+function loadBaseTemplate(): string {
+  const templatePath = join(process.cwd(), 'docs', 'base.md');
+  return readFileSync(templatePath, 'utf8');
+}
 
-\`\`\`
-${content.ascii}
-\`\`\`
-
-Principal Engineer @ Amino • Dad • Developer
-
-🚀 nurturing web architecture  
-🌳 doing the dad thing  
-📖 staying curious
+function createDailyContent(content: ProfileContent): string {
+  return `*${content.ascii}*
 
 > ${content.quote}
 
----
-
-![Dev's GitHub stats](https://github-readme-stats.vercel.app/api?username=devdumpling&show_icons=true&theme=${content.theme})
-
 *Auto-updated daily • ${content.date}*
-`;
+
+---`;
+}
+
+function createMarkdown(content: ProfileContent): string {
+  const baseTemplate = loadBaseTemplate();
+  const dailyContent = createDailyContent(content);
+  
+  return baseTemplate.replace('{{DAILY_CONTENT}}', dailyContent);
 }
 
 function ensureDirectoryExists(dir: string): void {
