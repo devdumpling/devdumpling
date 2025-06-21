@@ -19,7 +19,31 @@ function getCurrentDate(): string {
   return new Date().toISOString().split('T')[0];
 }
 
+function parseAIContent(aiContent: string): { ascii: string; quote: string } {
+  const lines = aiContent.split('\n');
+  let ascii = '';
+  let quote = '';
+  
+  for (const line of lines) {
+    if (line.startsWith('ASCII_ART:')) {
+      ascii = line.replace('ASCII_ART:', '').trim();
+    } else if (line.startsWith('QUOTE:')) {
+      quote = line.replace('QUOTE:', '').trim();
+    }
+  }
+  
+  return { ascii, quote };
+}
+
 function generateASCIIArt(): string {
+  // Check if AI-generated content is available
+  const aiContent = process.env.AI_GENERATED_CONTENT;
+  if (aiContent) {
+    const { ascii } = parseAIContent(aiContent);
+    if (ascii) return ascii;
+  }
+  
+  // Fallback to hardcoded options
   const asciiArts = [
     `dev(on) • daily fresh 🥟`,
     `[ dev • dad • dumpling ]`,
@@ -30,14 +54,20 @@ function generateASCIIArt(): string {
 }
 
 function generateQuote(): string {
+  // Check if AI-generated content is available
+  const aiContent = process.env.AI_GENERATED_CONTENT;
+  if (aiContent) {
+    const { quote } = parseAIContent(aiContent);
+    if (quote) return quote;
+  }
+  
+  // Fallback fantasy quotes
   const quotes = [
-    "Code is like humor. When you have to explain it, it's bad. — Cory House",
-    "The best error message is the one that never shows up. — Thomas Fuchs",
-    "Experience is the name everyone gives to their mistakes. — Oscar Wilde",
-    "Any fool can write code that a computer can understand. Good programmers write code that humans can understand. — Martin Fowler",
-    "First, solve the problem. Then, write the code. — John Johnson",
-    "Debugging is twice as hard as writing the code in the first place. — Brian Kernighan",
-    "The only way to learn a new programming language is by writing programs in it. — Dennis Ritchie"
+    "All we have to decide is what to do with the time that is given us. — Gandalf, The Fellowship of the Ring",
+    "The most important step a man can take. It's not the first one, is it? It's the next one. — Dalinar, Oathbringer",
+    "It's the questions we can't answer that teach us the most. They teach us how to think. — Patrick Rothfuss, The Wise Man's Fear",
+    "Even the smallest person can change the course of the future. — Galadriel, The Fellowship of the Ring",
+    "Life before death, strength before weakness, journey before destination. — The First Ideal, The Way of Kings"
   ];
   
   return quotes[Math.floor(Math.random() * quotes.length)];

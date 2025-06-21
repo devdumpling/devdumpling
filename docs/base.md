@@ -7,16 +7,10 @@
 ```ts
 const dev = {
   pronouns: ["they", "them", "he", "him"],
-  currentRole: "Principal Engineer @ Amino",
+  currentRole: "Principal Engineer @ CapitalRx",
   hobbies: ["Fantasy Books", "RPGs", "Bouldering"],
 };
 ```
-
-🚀 nurturing web architecture
-🌳 doing the dad thing
-📖 staying curious
-
-## Tech I like
 
 ### `langs`
 
