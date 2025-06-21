@@ -72,9 +72,23 @@ function generateProfileContent(): ProfileContent {
 }
 
 function createMarkdown(content: ProfileContent): string {
-  return `# DevDumpling's Daily Profile
+  return `# Hi, I'm Dev(on) 👋
 
 *Generated on ${content.date}*
+
+## I'm a Dad, a software dev, and a... well, Dev!
+
+\`\`\`ts
+const dev = {
+  pronouns: ["they", "them", "he", "him"],
+  currentRole: "Principal Engineer @ Amino",
+  hobbies: ["Fantasy Books", "RPGs", "Bouldering"],
+};
+\`\`\`
+
+🚀 nurturing web architecture  
+🌳 doing the dad thing  
+📖 staying curious
 
 \`\`\`
 ${content.ascii}
@@ -84,19 +98,47 @@ ${content.ascii}
 
 > ${content.quote}
 
-## 🛠️ What I'm Working On
+## Tech I like
 
-- Building cool projects with TypeScript and modern web tech
-- Exploring new development patterns and best practices
-- Contributing to open source when possible
+### \`langs\`
+
+- JS/TS
+- Rust
+- Go
+
+### \`frameworks\`
+
+> Lately I'm inspired by [Alex Russell's blog](https://infrequently.org/2024/01/performance-inequality-gap-2024/#the-budget%2C-2024) and am indulging myself in lighter-weight alternatives to React and Next, especially for primarily content-driven apps. Here are some of the frameworks I'm inspired by:
+
+- [Astro](https://astro.build/)
+- [Qwik, QwikCity](https://qwik.dev/)
+- [Fresh, Preact](https://fresh.deno.dev/)
+- [Solid](https://www.solidjs.com/)
+- [rwsdk](https://rwsdk.com/)
+- [Nuxt](https://nuxt.com/)
+- [Enhance](https://enhance.dev/)
+- [FAST](https://fast.design/)
+- [React, Next](https://nextjs.org/)
+
+### \`tools\`
+
+- [Deno](https://deno.com/)
+- [vite](https://vite.dev/)
+- [node](https://nodejs.org/)
+- [turborepo](https://turbo.build/repo/docs)
 
 ## 📊 GitHub Stats
 
-![DevDumpling's GitHub stats](https://github-readme-stats.vercel.app/api?username=devdumpling&show_icons=true&theme=${content.theme})
+![Dev's GitHub stats](https://github-readme-stats.vercel.app/api?username=devdumpling&show_icons=true&theme=${content.theme})
 
-## 🌟 Recent Activity
+## Influences
 
-*This section will be populated with recent GitHub activity*
+- [John Cleese: A cheerful guide to creativity](https://www.designbetter.co/podcast/john-cleese)
+- [Cal Newport: Deep Work](https://www.shortform.com/summary/deep-work-summary-cal-newport)
+- [James Clear: Atomic Habits](https://www.quickread.com/book-summary/atomic-habits-97)
+- [Bret Victor - Inventing on Principle](https://www.youtube.com/watch?v=PUv66718DII)
+- [Alex Russell - All of his blog posts](https://infrequently.org/)
+- [Oliver Burkeman: Four Thousand Weeks](https://www.amazon.com/Four-Thousand-Weeks-Management-Mortals/dp/0374159122)
 
 ---
 
