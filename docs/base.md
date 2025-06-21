@@ -1,5 +1,7 @@
 # Hi, I'm Dev(on) 👋
 
+{{DAILY_CONTENT}}
+
 ## I'm a Dad, a software dev, and a... well, Dev!
 
 ```ts
