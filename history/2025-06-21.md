@@ -15,10 +15,10 @@ Principal Engineer @ Amino • Dad • Developer
 🌳 doing the dad thing  
 📖 staying curious
 
-> The best error message is the one that never shows up. — Thomas Fuchs
+> First, solve the problem. Then, write the code. — John Johnson
 
 ---
 
-![Dev's GitHub stats](https://github-readme-stats.vercel.app/api?username=devdumpling&show_icons=true&theme=creative)
+![Dev's GitHub stats](https://github-readme-stats.vercel.app/api?username=devdumpling&show_icons=true&theme=minimal)
 
 *Auto-updated daily • 2025-06-21*
