@@ -32,8 +32,18 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Generate AI content via Claude
+        uses: anthropics/claude-code-action@v1
+        with:
+          prompt_file: "prompt.md"
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+        id: claude-generation
+        
       - name: Generate daily profile
         run: pnpm generate
+        env:
+          AI_GENERATED_CONTENT: ${{ steps.claude-generation.outputs.result }}
 
       - name: Commit and push changes
         run: |

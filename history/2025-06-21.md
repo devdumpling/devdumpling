@@ -2,7 +2,7 @@
 
 *[ dev • dad • dumpling ]*
 
-> Debugging is twice as hard as writing the code in the first place. — Brian Kernighan
+> All we have to decide is what to do with the time that is given us. — Gandalf, The Fellowship of the Ring
 
 *Auto-updated daily • 2025-06-21*
 
@@ -13,16 +13,10 @@
 ```ts
 const dev = {
   pronouns: ["they", "them", "he", "him"],
-  currentRole: "Principal Engineer @ Amino",
+  currentRole: "Principal Engineer @ CapitalRx",
   hobbies: ["Fantasy Books", "RPGs", "Bouldering"],
 };
 ```
-
-🚀 nurturing web architecture
-🌳 doing the dad thing
-📖 staying curious
-
-## Tech I like
 
 ### `langs`
 
