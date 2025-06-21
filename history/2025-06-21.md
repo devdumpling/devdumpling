@@ -1,8 +1,8 @@
 # Hi, I'm Dev(on) 👋
 
-*dev(on) • daily fresh 🥟*
+*[ dev • dad • dumpling ]*
 
-> The only way to learn a new programming language is by writing programs in it. — Dennis Ritchie
+> Debugging is twice as hard as writing the code in the first place. — Brian Kernighan
 
 *Auto-updated daily • 2025-06-21*
 
