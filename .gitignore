@@ -25,7 +25,6 @@ dist-ssr
 
 # Generated content
 content/profile.md
-README.md
 
 # Keep history but ignore generated files
 !history/
