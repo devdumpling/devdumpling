@@ -1,6 +1,6 @@
-# Hi, I'm Dev(on) 👋
+# DevDumpling's Daily Profile
 
-*Generated on 2025-06-21*
+_Generated on 2025-06-21_
 
 ## I'm a Dad, a software dev, and a... well, Dev!
 
@@ -12,8 +12,8 @@ const dev = {
 };
 ```
 
-🚀 nurturing web architecture  
-🌳 doing the dad thing  
+🚀 nurturing web architecture
+🌳 doing the dad thing
 📖 staying curious
 
 ```
@@ -30,15 +30,15 @@ const dev = {
 
 ## Tech I like
 
-### `langs`
+> The best error message is the one that never shows up. — Thomas Fuchs
 
-- JS/TS
-- Rust
-- Go
+## 🛠️ What I'm Working On
 
-### `frameworks`
+- Building cool projects with TypeScript and modern web tech
+- Exploring new development patterns and best practices
+- Contributing to open source when possible
 
-> Lately I'm inspired by [Alex Russell's blog](https://infrequently.org/2024/01/performance-inequality-gap-2024/#the-budget%2C-2024) and am indulging myself in lighter-weight alternatives to React and Next, especially for primarily content-driven apps. Here are some of the frameworks I'm inspired by:
+## 📊 GitHub Stats
 
 - [Astro](https://astro.build/)
 - [Qwik, QwikCity](https://qwik.dev/)
@@ -50,12 +50,9 @@ const dev = {
 - [FAST](https://fast.design/)
 - [React, Next](https://nextjs.org/)
 
-### `tools`
+_This section will be populated with recent GitHub activity_
 
-- [Deno](https://deno.com/)
-- [vite](https://vite.dev/)
-- [node](https://nodejs.org/)
-- [turborepo](https://turbo.build/repo/docs)
+---
 
 ## 📊 GitHub Stats
 
@@ -72,4 +69,4 @@ const dev = {
 
 ---
 
-*This profile is automatically updated daily. Last update: 2025-06-21*
+_This profile is automatically updated daily. Last update: 2025-06-21_
