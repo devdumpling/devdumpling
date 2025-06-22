@@ -33,9 +33,9 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Generate AI content via Claude
-        uses: anthropics/claude-code-action@beta
+        uses: anthropics/claude-code-base-action@beta
         with:
-          direct_prompt: |
+          prompt: |
             You are helping generate daily content for a developer's GitHub profile. Generate fresh daily content including:
 
             1. **ASCII Art Banner** - A simple, clean ASCII art banner related to development, coding, or fantasy themes
@@ -68,8 +68,8 @@ jobs:
             ```
 
             This is for a Principal Engineer at CapitalRx who is a dad, developer, and enjoys fantasy books, RPGs, and bouldering.
+          allowed_tools: "View,GlobTool,GrepTool"
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
         id: claude-generation
 
       - name: Generate daily profile
