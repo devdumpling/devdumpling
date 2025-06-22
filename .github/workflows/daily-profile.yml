@@ -52,7 +52,7 @@ jobs:
               - `[ dev • dad • dumpling ]`
               - `★ fresh code, fresh ideas ★`
 
-            ### Fantasy Literature Quote  
+            ### Fantasy Literature Quote
             - Must be from fantasy literature (books, authors like Tolkien, Pratchett, Sanderson, etc.)
             - Should relate to themes of: learning, growth, perseverance, creativity, problem-solving, or adventure
             - Include proper attribution (— Author, Book Title)
@@ -69,7 +69,6 @@ jobs:
 
             This is for a Principal Engineer at CapitalRx who is a dad, developer, and enjoys fantasy books, RPGs, and bouldering.
           allowed_tools: "View,GlobTool,GrepTool"
-          use_node_cache: "true"
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
         env:
           NODE_VERSION: "24.x"
