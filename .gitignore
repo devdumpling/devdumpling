@@ -25,6 +25,7 @@ dist-ssr
 
 # Generated content
 content/profile.md
+output.txt
 
 # Keep history but ignore generated files
 !history/

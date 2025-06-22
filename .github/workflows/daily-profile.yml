@@ -74,10 +74,16 @@ jobs:
           NODE_VERSION: "24.x"
         id: claude-generation
 
+      - name: Extract AI result from output
+        run: |
+          # Extract the final result from the JSON output
+          RESULT=$(grep '"result":' output.txt | tail -1 | sed 's/.*"result":"\([^"]*\)".*/\1/' | sed 's/\\n/\n/g')
+          echo "AI_GENERATED_CONTENT<<EOF" >> $GITHUB_ENV
+          echo "$RESULT" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+          
       - name: Generate daily profile
         run: pnpm generate
-        env:
-          AI_GENERATED_CONTENT: ${{ steps.claude-generation.outputs.result }}
 
       - name: Commit and push changes
         run: |
