@@ -1,6 +1,6 @@
 # Hi, I'm Dev(on) 👋
 
-*⚡ principal • engineer • quest ⚡*
+*⚔️ { code • craft • adventure } ⚔️*
 
 > It's the questions we can't answer that teach us the most. They teach us how to think. — Patrick Rothfuss, The Wise Man's Fear
 
