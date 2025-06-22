@@ -1,8 +1,8 @@
 # Hi, I'm Dev(on) 👋
 
-*~ coding adventures daily ~*
+*⚡ principal • engineer • quest ⚡*
 
-> Life before death, strength before weakness, journey before destination. — The First Ideal, The Way of Kings
+> It's the questions we can't answer that teach us the most. They teach us how to think. — Patrick Rothfuss, The Wise Man's Fear
 
 *Auto-updated daily • 2025-06-22*
 
