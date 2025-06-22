@@ -69,7 +69,10 @@ jobs:
 
             This is for a Principal Engineer at CapitalRx who is a dad, developer, and enjoys fantasy books, RPGs, and bouldering.
           allowed_tools: "View,GlobTool,GrepTool"
+          use_node_cache: "true"
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+        env:
+          NODE_VERSION: "24.x"
         id: claude-generation
 
       - name: Generate daily profile
