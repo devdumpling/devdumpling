@@ -35,7 +35,39 @@ jobs:
       - name: Generate AI content via Claude
         uses: anthropics/claude-code-action@beta
         with:
-          prompt_file: "prompt.md"
+          direct_prompt: |
+            You are helping generate daily content for a developer's GitHub profile. Generate fresh daily content including:
+
+            1. **ASCII Art Banner** - A simple, clean ASCII art banner related to development, coding, or fantasy themes
+            2. **Fantasy Literature Quote** - A meaningful quote from fantasy literature that relates to coding, learning, or personal growth
+
+            ## Requirements
+
+            ### ASCII Art Banner
+            - Keep it simple and clean (no complex borders that might break rendering)
+            - Should be 1-3 lines maximum
+            - Themes: development, coding, fantasy, adventure, learning
+            - Examples of good styles:
+              - `~ coding adventures daily ~`
+              - `[ dev • dad • dumpling ]`
+              - `★ fresh code, fresh ideas ★`
+
+            ### Fantasy Literature Quote  
+            - Must be from fantasy literature (books, authors like Tolkien, Pratchett, Sanderson, etc.)
+            - Should relate to themes of: learning, growth, perseverance, creativity, problem-solving, or adventure
+            - Include proper attribution (— Author, Book Title)
+            - Avoid quotes already used (check docs/quotes.md if needed)
+
+            ## Output Format
+
+            Please provide the content in this exact format:
+
+            ```
+            ASCII_ART: [your ASCII art here]
+            QUOTE: [your quote here] — [Author, Book Title]
+            ```
+
+            This is for a Principal Engineer at CapitalRx who is a dad, developer, and enjoys fantasy books, RPGs, and bouldering.
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
         id: claude-generation
