@@ -1,8 +1,8 @@
 # Hi, I'm Dev(on) 👋
 
-*⚡ { debug • dad • dumpling } ⚡*
+*⚡ building • learning • growing ⚡*
 
-> \
+> It's the questions we can't answer that teach us the most. They teach us how to think. — Patrick Rothfuss, The Wise Man's Fear
 
 *Auto-updated daily • 2025-07-14*
 
