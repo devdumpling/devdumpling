@@ -1,6 +1,6 @@
 # Hi, I'm Dev(on) 👋
 
-*⚡ Principal Engineer • Dad • Code Wizard ⚡*
+*⚡ Principal Engineer • Dad • Sometimes writer ⚡*
 
 > The most important step a man can take. It's not the first one, is it? It's the next one. — Dalinar, Oathbringer
 
