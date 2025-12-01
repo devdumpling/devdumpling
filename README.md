@@ -21,6 +21,7 @@ const dev = {
 ### `langs`
 
 - JS/TS
+- Gleam
 - Rust
 - Go
 
