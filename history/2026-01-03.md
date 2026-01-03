@@ -1,6 +1,6 @@
 # Hi, I'm Dev(on) 👋
 
-*Winter coding | Weekend projects | 1.3.2026*
+_Winter coding | Weekend projects | 1.3.2026_
 
 ---
 
@@ -64,4 +64,4 @@ And here are some of the frameworks I'm inspired by:
 
 ---
 
-*Auto-updated daily | 2026-01-03*
+_Auto-updated daily | 2026-01-03_
