@@ -7,20 +7,31 @@
 ```ts
 const dev = {
   pronouns: ["they", "them", "he", "him"],
-  currentRole: "Principal Engineer @ CapitalRx",
+  currentRole: "Principal Engineer @ Judi Health",
   hobbies: ["Fantasy Books", "RPGs", "Bouldering"],
 };
 ```
 
+Read more @ [wlls.dev](https://wlls.dev/) or resume [here](https://wlls.dev/resume)
+
 ### `langs`
 
 - JS/TS
+- Gleam
 - Rust
 - Go
 
 ### `frameworks`
 
-> Lately I'm inspired by [Alex Russell's blog](https://infrequently.org/2024/01/performance-inequality-gap-2024/#the-budget%2C-2024) and am indulging myself in lighter-weight alternatives to React and Next, especially for primarily content-driven apps. Here are some of the frameworks I'm inspired by:
+> Lately I'm inspired by [Alex Russell's blog](https://infrequently.org/2024/01/performance-inequality-gap-2024/#the-budget%2C-2024) and am indulging myself in lighter-weight alternatives to React and Next.
+
+Currently, I favor:
+
+- [Svelte](https://svelte.dev/)
+
+(honorable mention for [Lustre](https://hexdocs.pm/lustre/lustre.html) for Gleam projects)
+
+And here are some of the frameworks I'm inspired by:
 
 - [Astro](https://astro.build/)
 - [Qwik, QwikCity](https://qwik.dev/)
@@ -41,9 +52,10 @@ const dev = {
 
 ## Influences:
 
-- [John Cleese: A cheerful guide to creativity](https://www.designbetter.co/podcast/john-cleese)
-- [Cal Newport: Deep Work](https://www.shortform.com/summary/deep-work-summary-cal-newport)
+- [John Cleese - A cheerful guide to creativity](https://www.designbetter.co/podcast/john-cleese)
+- [Cal Newport - Deep Work](https://www.shortform.com/summary/deep-work-summary-cal-newport)
 - [James Clear: Atomic Habits](https://www.quickread.com/book-summary/atomic-habits-97)
 - [Bret Victor - Inventing on Principle](https://www.youtube.com/watch?v=PUv66718DII)
 - [Alex Russell - All of his blog posts](https://infrequently.org/)
-- [Oliver Burkeman: Four Thousand Weeks](https://www.amazon.com/Four-Thousand-Weeks-Management-Mortals/dp/0374159122)
+- [Oliver Burkeman - Four Thousand Weeks](https://www.amazon.com/Four-Thousand-Weeks-Management-Mortals/dp/0374159122)
+- [Adam Grant - Think Again](https://www.thriftbooks.com/w/think-again_adam-m-grant/26881250/item/44375284/?utm_source=google&utm_medium=cpc&utm_campaign=pmax_high_vol_scarce_under_$10_17389091670&utm_adgroup=&utm_term=&utm_content=&gad_source=1&gad_campaignid=17389092606&gbraid=0AAAAADwY45ikAlIlVdwyNyWvA2q2wEcjA#edition=57405502&idiq=44651682)
