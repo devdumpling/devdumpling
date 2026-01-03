@@ -256,8 +256,10 @@ async function generateProfileContent(): Promise<ProfileContent> {
 function createDailyContent(content: ProfileContent): string {
   const parts: string[] = [];
 
-  // Day greeting with seasonal context
-  parts.push(`*${content.seasonalMessage} | ${content.dayGreeting}*`);
+  // Day greeting with seasonal context and date
+  const [year, month, day] = content.date.split("-");
+  const shortDate = `${parseInt(month)}.${parseInt(day)}.${year}`;
+  parts.push(`*${content.seasonalMessage} | ${content.dayGreeting} | ${shortDate}*`);
 
   // Special date message if applicable
   if (content.specialDate) {

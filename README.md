@@ -1,12 +1,6 @@
 # Hi, I'm Dev(on) 👋
 
-*Winter coding | Weekend projects*
-
-| Stat | Value |
-|------|-------|
-| Current Streak | 198 days |
-| This Week | 17 contributions |
-| Year Total | 2562 contributions |
+*Winter coding | Weekend projects | 1.3.2026*
 
 ---
 
