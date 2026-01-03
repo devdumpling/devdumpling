@@ -234,11 +234,7 @@ function calculateCurrentStreak(days: ContributionDay[]): number {
 }
 
 function formatStats(stats: GitHubStats): string {
-  return `| Stat | Value |
-|------|-------|
-| Current Streak | ${stats.currentStreak} days |
-| This Week | ${stats.thisWeek} contributions |
-| Year Total | ${stats.yearTotal} contributions |`;
+  return `🔥 ${stats.currentStreak} day streak · 📊 ${stats.thisWeek} this week · 🎯 ${stats.yearTotal} this year`;
 }
 
 // ============================================================================
