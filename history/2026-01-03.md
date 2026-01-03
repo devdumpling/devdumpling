@@ -2,11 +2,7 @@
 
 *Winter coding | Weekend projects*
 
-| Stat | Value |
-|------|-------|
-| Current Streak | 198 days |
-| This Week | 17 contributions |
-| Year Total | 2562 contributions |
+🔥 198 day streak · 📊 20 this week · 🎯 2565 this year
 
 ---
 
