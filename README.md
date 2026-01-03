@@ -2,6 +2,12 @@
 
 *Winter coding | Weekend projects*
 
+| Stat | Value |
+|------|-------|
+| Current Streak | 198 days |
+| This Week | 17 contributions |
+| Year Total | 2562 contributions |
+
 ---
 
 ## I'm a Dad, a software dev, and a... well, Dev!
