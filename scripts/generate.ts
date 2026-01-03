@@ -276,8 +276,6 @@ function createDailyContent(content: ProfileContent): string {
   }
 
   parts.push("");
-  parts.push(`*Auto-updated daily | ${content.date}*`);
-  parts.push("");
   parts.push("---");
 
   return parts.join("\n");
@@ -295,7 +293,9 @@ function loadBaseTemplate(): string {
 function createMarkdown(content: ProfileContent): string {
   const baseTemplate = loadBaseTemplate();
   const dailyContent = createDailyContent(content);
-  return baseTemplate.replace("{{DAILY_CONTENT}}", dailyContent);
+  return baseTemplate
+    .replace("{{DAILY_CONTENT}}", dailyContent)
+    .replace("{{TIMESTAMP}}", `*Auto-updated daily | ${content.date}*`);
 }
 
 function ensureDirectoryExists(dir: string): void {

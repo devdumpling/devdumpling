@@ -59,3 +59,7 @@ And here are some of the frameworks I'm inspired by:
 - [Alex Russell - All of his blog posts](https://infrequently.org/)
 - [Oliver Burkeman - Four Thousand Weeks](https://www.amazon.com/Four-Thousand-Weeks-Management-Mortals/dp/0374159122)
 - [Adam Grant - Think Again](https://www.thriftbooks.com/w/think-again_adam-m-grant/26881250/item/44375284/?utm_source=google&utm_medium=cpc&utm_campaign=pmax_high_vol_scarce_under_$10_17389091670&utm_adgroup=&utm_term=&utm_content=&gad_source=1&gad_campaignid=17389092606&gbraid=0AAAAADwY45ikAlIlVdwyNyWvA2q2wEcjA#edition=57405502&idiq=44651682)
+
+---
+
+{{TIMESTAMP}}
