@@ -1,6 +1,8 @@
 # Hi, I'm Dev(on) 👋
 
-_Winter coding | Weekend projects | 1.3.2026_
+*Winter coding | Weekend projects | 1.3.2026*
+
+🔥 198 day streak · 📊 23 this week · 🎯 2568 this year
 
 ---
 
@@ -64,4 +66,4 @@ And here are some of the frameworks I'm inspired by:
 
 ---
 
-_Auto-updated daily | 2026-01-03_
+*Auto-updated daily | 2026-01-03*
