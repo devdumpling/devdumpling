@@ -1,10 +1,6 @@
 # Hi, I'm Dev(on) 👋
 
-*Spring coding | Starting the week with fresh code | 4.27.2026*
-
 🔥 311 day streak · 📊 72 this week · 🎯 3004 this year
-
----
 
 ## I'm a Dad, a software dev, and a... well, Dev!
 
@@ -20,39 +16,12 @@ Read more @ [wlls.dev](https://wlls.dev/) or resume [here](https://wlls.dev/resu
 
 ### `langs`
 
+The preferred list:
+
 - JS/TS
 - Gleam
+- Odin
 - Rust
-- Go
-
-### `frameworks`
-
-> Lately I'm inspired by [Alex Russell's blog](https://infrequently.org/2024/01/performance-inequality-gap-2024/#the-budget%2C-2024) and am indulging myself in lighter-weight alternatives to React and Next.
-
-Currently, I favor:
-
-- [Svelte](https://svelte.dev/)
-
-(honorable mention for [Lustre](https://hexdocs.pm/lustre/lustre.html) for Gleam projects)
-
-And here are some of the frameworks I'm inspired by:
-
-- [Astro](https://astro.build/)
-- [Qwik, QwikCity](https://qwik.dev/)
-- [Fresh, Preact](https://fresh.deno.dev/)
-- [Solid](https://www.solidjs.com/)
-- [rwsdk](https://rwsdk.com/)
-- [Nuxt](https://nuxt.com/)
-- [Enhance](https://enhance.dev/)
-- [FAST](https://fast.design/)
-- [React, Next](https://nextjs.org/)
-
-### `tools`
-
-- [Deno](https://deno.com/)
-- [vite](https://vite.dev/)
-- [node](https://nodejs.org/)
-- [turborepo](https://turbo.build/repo/docs)
 
 ## Influences:
 
@@ -66,4 +35,4 @@ And here are some of the frameworks I'm inspired by:
 
 ---
 
-*Auto-updated daily | 2026-04-27*
+{{TIMESTAMP}}
