@@ -1,10 +1,8 @@
 # Hi, I'm Dev(on) 👋
 
-*Fall coding | Weekend projects | 10.31.2026*
+*Fall coding | Resting and planning ahead | 11.1.2026*
 
-> Happy Halloween
-
-🔥 370 day streak · 📊 129 this week · 🎯 3626 this year
+🔥 364 day streak · 📊 117 this week · 🎯 3627 this year
 
 ---
 
@@ -41,4 +39,4 @@ The preferred list:
 
 ---
 
-*Auto-updated daily | 2026-10-31*
+*Auto-updated daily | 2026-11-01*
