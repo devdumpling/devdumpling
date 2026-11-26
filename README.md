@@ -1,8 +1,8 @@
 # Hi, I'm Dev(on) 👋
 
-*Fall coding | Midweek milestones | 11.25.2026*
+*Fall coding | Pushing through to Friday | 11.26.2026*
 
-🔥 368 day streak · 📊 166 this week · 🎯 3992 this year
+🔥 368 day streak · 📊 92 this week · 🎯 4020 this year
 
 ---
 
@@ -39,4 +39,4 @@ The preferred list:
 
 ---
 
-*Auto-updated daily | 2026-11-25*
+*Auto-updated daily | 2026-11-26*
